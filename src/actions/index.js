@@ -8,7 +8,7 @@ export const FETCH_WEATHER='FETCH_WEATHER';//to keep our action type consistent 
 export function fetchWeather(city){
   const url=`${ROOT_URL}&q=${city},us`;
   const request = axios.get(url);
-  console.log(request) + 'invalid');
+  console.log(request + 'invalid');
 
   console.log('Request',request);
 
